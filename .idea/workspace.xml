@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c3ee6f-a5e8-4684-9351-83b46690b012" name="Default Changelist" comment="" />
+    <list default="true" id="19c3ee6f-a5e8-4684-9351-83b46690b012" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +34,9 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -131,6 +137,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1aDNYhPOeNwir2NSkOndRkkqLVc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -139,6 +146,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -171,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586266253387</updated>
       <workItem from="1586266254830" duration="5226000" />
-      <workItem from="1586444263471" duration="12015000" />
+      <workItem from="1586444263471" duration="12392000" />
     </task>
     <servers />
   </component>
@@ -183,6 +191,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="278" y="24" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586266772629" />
+    <state x="426" y="169" width="504" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586477257985">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="426" y="169" width="504" height="383" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586477257985" />
     <state x="435" y="0" width="476" height="723" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586464355998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
