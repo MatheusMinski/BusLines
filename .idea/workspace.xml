@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c3ee6f-a5e8-4684-9351-83b46690b012" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/imagensRotas/Hiper4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Cedeteg.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Cedeteg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cedeteg_route.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cedeteg_route.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +152,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -157,7 +161,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/storage/imagensRotas" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/layout/_includes" />
     </key>
@@ -181,6 +190,7 @@
       <workItem from="1586266254830" duration="5226000" />
       <workItem from="1586444263471" duration="13536000" />
       <workItem from="1586959082572" duration="242000" />
+      <workItem from="1587131258311" duration="4221000" />
     </task>
     <servers />
   </component>
@@ -204,6 +214,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="416" y="121" width="524" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586463292099" />
+    <state x="348" y="3" width="674" height="715" key="#storage" timestamp="1587132833559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="348" y="3" width="674" height="715" key="#storage/0.0.1366.728@0.0.1366.728" timestamp="1587132833559" />
     <state x="440" y="0" width="647" height="728" key="find.popup" timestamp="1586269800793">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

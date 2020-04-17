@@ -30,7 +30,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="{{route('querrySantaCruz')}}">Unicentro Santa Cruz</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="{{route('querryCedeteg')}}">CEDETEG</a>
+                    <a class="dropdown-item" href="{{route('pontosCedeteg')}}">CEDETEG</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="{{route('querryCampoReal')}}">Campo Real</a>
                 </div>
