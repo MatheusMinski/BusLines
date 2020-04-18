@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c3ee6f-a5e8-4684-9351-83b46690b012" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/imagensRotas/Hiper4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CampoReal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CampoReal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Cedeteg.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Cedeteg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SantaCruz.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SantaCruz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Welcome.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/cedeteg_route.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cedeteg_route.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/manual_querry_results.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/manual_querry_results.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/santa_cruz_route.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/santa_cruz_route.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +195,8 @@
       <workItem from="1586266254830" duration="5226000" />
       <workItem from="1586444263471" duration="13536000" />
       <workItem from="1586959082572" duration="242000" />
-      <workItem from="1587131258311" duration="4221000" />
+      <workItem from="1587131258311" duration="5691000" />
+      <workItem from="1587228605443" duration="9042000" />
     </task>
     <servers />
   </component>

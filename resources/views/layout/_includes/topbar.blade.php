@@ -28,11 +28,9 @@
                     Qual é o seu destino?
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{route('querrySantaCruz')}}">Unicentro Santa Cruz</a>
+                    <a class="dropdown-item" href="{{route('pontosSantaCruz')}}">Unicentro Santa Cruz/ Campo Real</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="{{route('pontosCedeteg')}}">CEDETEG</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="{{route('querryCampoReal')}}">Campo Real</a>
                 </div>
             </li>
             <li class="nav-item">

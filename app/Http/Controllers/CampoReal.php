@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class CampoReal extends Controller
 {
-    public function querryCampoReal()
+    /*public function querryCampoReal()
     {
         require_once ('../vendor/autoload.php');
 
@@ -24,5 +24,5 @@ class CampoReal extends Controller
             throw new Exception(print_r($err, true));
         }
         return view('campo_real_route', compact('rows'));
-    }
+    }*/
 }

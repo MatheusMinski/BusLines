@@ -7,16 +7,25 @@ use Illuminate\Http\Request;
 
 class SantaCruz extends Controller
 {
-    public function querrySantaCruz()
-    {
-        require_once ('../vendor/autoload.php');
+    public function pontosSantaCruz() {
 
-        $endpoint = "https://dbpedia.org/sparql";
+        return view('santa_cruz_route');
+    }
+
+
+    public function querrySantaCruz($nomePonto)
+    {
+       require_once ('../vendor/autoload.php');
+
+        $endpoint = "http://lod.unicentro.br/sparql/http://lod.unicentro.br/Smart/Guarapuava/";
         $sc = new SparqlClient();
         $sc->setEndpointRead($endpoint);
-        //$sc->setMethodHTTPRead("GET");
-        //$q = "select ?p ?o  where { <http://dbpedia.org/resource/Federal_University_of_Pernambuco> ?p ?o. }  LIMIT 15";
-        $q = "select * where { ?s ?p ?o. }  LIMIT 15";
+        $q = "prefix gtfs: <http://vocab.gtfs.org/terms#>
+              prefix time: <http://www.w3.org/2006/time#>
+              prefix SC: <http://lod.unicentro.br/SmartGuarapuava/RotasOnibus/>
+              select ?Nome ?Hora where { ?recurso foaf:name ".$nomePonto."; SC:hasTime ?teste . ?teste gtfs:departureTime ?Hora . ?recurso2 gtfs:stop ?recurso . ?recurso2 gtfs:shortName ?Nome .  filter(?Nome = \"UNICENTRO\")}
+                order by (?Hora)";
+
         $rows = $sc->query($q, 'rows');
         $err = $sc->getErrors();
         if ($err) {
@@ -24,7 +33,7 @@ class SantaCruz extends Controller
             throw new Exception(print_r($err, true));
         }
 
-        return view('santa_cruz_route', compact('rows'));
+        return view('manual_querry_results', compact('rows'));
 
     }
 }

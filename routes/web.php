@@ -15,8 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Welcome@index')->name('home');
 Route::get('/CampoReal', 'CampoReal@querryCampoReal')->name('querryCampoReal');
+
 Route::get('/CEDETEG', 'Cedeteg@pontosCedeteg')->name('pontosCedeteg');
-Route::get('/SantaCruz', 'SantaCruz@querrySantaCruz')->name('querrySantaCruz');
+Route::get('/CEDETEG/querry/{nomePonto}', 'Cedeteg@querryCedeteg')->name('querryCedeteg');
+
+Route::get('/SantaCruz', 'SantaCruz@pontosSantaCruz')->name('pontosSantaCruz');
+Route::get('/SantaCruz/querry/{nomePonto}', 'SantaCruz@querrySantaCruz')->name('querrySantaCruz');
+
 Route::get('/ManualQuerry/View', 'ManualQuerry@manualQuerryView')->name('manualQuerryView');
 Route::post('/ManualQuerry/Results', 'ManualQuerry@manualQuerryResult')->name('manualQuerryResults');
 

@@ -14,13 +14,13 @@
                 <div class="col-lg-4 col-md-12 mb-4">
 
                     <label>Saída Fonte</label>
-                    <img src="https://i.imgur.com/lnWRBGE.jpg" class="img-fluid mb-4" alt="Saída Fonte">
+                    <a href="{{route('querryCedeteg', ['nomePonto' => "\"SAÍDA FONTE\""])}}" ><img src="https://i.imgur.com/lnWRBGE.jpg" class="img-fluid mb-4" alt="Saída Fonte"></a>
 
                     <label>Hiper Supermercado</label>
-                    <img src="https://i.imgur.com/LgwOYOC.jpg" class="img-fluid mb-4" alt="Hiper Supermercado">
+                    <a href="{{route('querryCedeteg', ['nomePonto' => "\"HIPER SUPERMERCADO\""])}}" ><img src="https://i.imgur.com/LgwOYOC.jpg" class="img-fluid mb-4" alt="Hiper Supermercado"></a>
 
                     <label>Armazém São Paulo</label>
-                    <img src="https://i.imgur.com/cYxi04o.jpg" class="img-fluid mb-4" alt="Armazém São Paulo">
+                    <a href="{{route('querryCedeteg', ['nomePonto' => "\"ARMAZÉN SÃO PAULO\""])}}" ><img src="https://i.imgur.com/cYxi04o.jpg" class="img-fluid mb-4" alt="Armazém São Paulo"></a>
 
 
 
@@ -31,10 +31,13 @@
                 <div class="col-lg-4 col-md-6 mb-4">
 
                     <label>Fisioterapia</label>
-                    <img src="https://i.imgur.com/PcIjPaZ.jpg" class="img-fluid mb-4" alt="Fisioterapia">
+                    <a href="{{route('querryCedeteg', ['nomePonto' => "\"CEDETEG: FISIOTERAPIA\""])}}" ><img src="https://i.imgur.com/PcIjPaZ.jpg" class="img-fluid mb-4" alt="Fisioterapia"></a>
 
-                    <label>Avenida Principal</label>
-                    <img src="https://i.imgur.com/fkwIYaI.jpg" class="img-fluid mb-4" alt="Avenida Principal">
+                    <label>Avenida Principal (IDA)</label>
+                    <a href="{{route('querryCedeteg', ['nomePonto' => "\"CEDETEG: AV. PRINCIPAL (IDA)\""])}}" ><img src="https://i.imgur.com/fkwIYaI.jpg" class="img-fluid mb-4" alt="Avenida Principal"></a>
+
+                    <label>Avenida Principal (Volta)</label>
+                    <a href="{{route('querryCedeteg', ['nomePonto' => "\"CEDETEG: AV. PRINCIPAL (VOLTA)\""])}}" ><img src="https://i.imgur.com/fkwIYaI.jpg" class="img-fluid mb-4" alt="Avenida Principal"></a>
 
                 </div>
                 <!--Grid column-->
@@ -43,10 +46,10 @@
                 <div class="col-lg-4 col-md-6 mb-4">
 
                     <label>Veterinária/Agronomia</label>
-                    <img src="https://i.imgur.com/Rldi8gx.jpg" class="img-fluid mb-4" alt="Veterinária/Agronomia">
+                    <a href="{{route('querryCedeteg', ['nomePonto' => "\"CEDETEG: VETERINÁRIA\""])}}" ><img src="https://i.imgur.com/Rldi8gx.jpg" class="img-fluid mb-4" alt="Veterinária/Agronomia"></a>
 
                     <label>Antiga Perdigão</label>
-                    <img src="https://i.imgur.com/sXkxWZJ.jpg" class="img-fluid mb-4" alt="Antiga Perdigão">
+                    <a href="{{route('querryCedeteg', ['nomePonto' => "\"ANTIGA PERDIGÃO\""])}}" ><img src="https://i.imgur.com/sXkxWZJ.jpg" class="img-fluid mb-4" alt="Antiga Perdigão"></a>
 
                 </div>
                 <!--Grid column-->
