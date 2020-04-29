@@ -13,7 +13,7 @@ class SantaCruz extends Controller
     }
 
 
-    public function querrySantaCruz($nomePonto)
+    public function querySantaCruz($nomePonto)
     {
        require_once ('../vendor/autoload.php');
 
@@ -33,7 +33,7 @@ class SantaCruz extends Controller
             throw new Exception(print_r($err, true));
         }
 
-        return view('manual_querry_results', compact('rows'));
+        return view('manual_query_results', compact('rows'));
 
     }
 }

@@ -34,7 +34,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{route('manualQuerryView')}}" style="color: white">Consultar manualmente</a>
+                <a class="nav-link" href="{{route('manualQueryView')}}" style="color: white">Consultar manualmente</a>
             </li>
 
         </ul>

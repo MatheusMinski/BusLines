@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class CampoReal extends Controller
 {
-    /*public function querryCampoReal()
+    /*public function queryCampoReal()
     {
         require_once ('../vendor/autoload.php');
 

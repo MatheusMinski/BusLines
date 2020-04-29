@@ -34,7 +34,8 @@ class Welcome extends Controller
 prefix time: <http://www.w3.org/2006/time#>
 prefix SC: <http://lod.unicentro.br/SmartGuarapuava/RotasOnibus/>
 
-select distinct ?Ponto ?Imagens where {?teste rdf:type gtfs:Stop; foaf:name ?Ponto; foaf:depiction ?Imagens . }";
+select distinct ?Rota ?Ponto ?Imagens where {?teste rdf:type gtfs:Stop; foaf:name ?Ponto; foaf:depiction ?Imagens . ?uriRoute rdf:type gtfs:Route ;
+                       gtfs:shortName ?Rota . } order by (?Rota)";
 
         $rows2 = $sc2->query($q2, 'rows');
         $err2 = $sc2 ->getErrors();

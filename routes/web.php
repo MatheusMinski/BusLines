@@ -14,14 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'Welcome@index')->name('home');
-Route::get('/CampoReal', 'CampoReal@querryCampoReal')->name('querryCampoReal');
+Route::get('/CampoReal', 'CampoReal@queryCampoReal')->name('queryCampoReal');
 
 Route::get('/CEDETEG', 'Cedeteg@pontosCedeteg')->name('pontosCedeteg');
-Route::get('/CEDETEG/querry/{nomePonto}', 'Cedeteg@querryCedeteg')->name('querryCedeteg');
+Route::get('/CEDETEG/query/{nomePonto}', 'Cedeteg@queryCedeteg')->name('queryCedeteg');
 
 Route::get('/SantaCruz', 'SantaCruz@pontosSantaCruz')->name('pontosSantaCruz');
-Route::get('/SantaCruz/querry/{nomePonto}', 'SantaCruz@querrySantaCruz')->name('querrySantaCruz');
+Route::get('/SantaCruz/query/{nomePonto}', 'SantaCruz@querySantaCruz')->name('querySantaCruz');
 
-Route::get('/ManualQuerry/View', 'ManualQuerry@manualQuerryView')->name('manualQuerryView');
-Route::post('/ManualQuerry/Results', 'ManualQuerry@manualQuerryResult')->name('manualQuerryResults');
+Route::get('/ManualQuery/View', 'ManualQuery@manualQueryView')->name('manualQueryView');
+Route::post('/ManualQuery/Results', 'ManualQuery@manualQueryResult')->name('manualQueryResults');
 

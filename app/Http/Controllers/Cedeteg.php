@@ -12,7 +12,7 @@ class Cedeteg extends Controller
         return view('cedeteg_route');
     }
 
-    public function querryCedeteg($nomePonto){
+    public function queryCedeteg($nomePonto){
 
         require_once ('../vendor/autoload.php');
 
@@ -33,6 +33,6 @@ class Cedeteg extends Controller
             throw new Exception(print_r($err, true));
         }
 
-        return view('manual_querry_results', compact('rows'));
+        return view('manual_query_results', compact('rows'));
     }
 }

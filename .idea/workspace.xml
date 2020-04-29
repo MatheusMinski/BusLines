@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c3ee6f-a5e8-4684-9351-83b46690b012" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/erro_query.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CampoReal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CampoReal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Cedeteg.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Cedeteg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ManualQuerry.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ManualQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SantaCruz.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SantaCruz.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Welcome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cedeteg_route.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cedeteg_route.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/manual_querry_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/manual_query_form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/manual_querry_results.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/manual_query_results.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/santa_cruz_route.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/santa_cruz_route.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +43,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="Git.Settings">
@@ -148,13 +159,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -187,7 +199,9 @@
       <workItem from="1586444263471" duration="13536000" />
       <workItem from="1586959082572" duration="242000" />
       <workItem from="1587131258311" duration="5691000" />
-      <workItem from="1587228605443" duration="9500000" />
+      <workItem from="1587228605443" duration="9774000" />
+      <workItem from="1587993769252" duration="2229000" />
+      <workItem from="1588168281621" duration="3356000" />
     </task>
     <servers />
   </component>
@@ -195,18 +209,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="24" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586266772629">
+    <state x="278" y="24" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587995938076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="24" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586266772629" />
+    <state x="278" y="24" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587995938076" />
     <state x="426" y="169" width="504" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586477257985">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="426" y="169" width="504" height="383" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586477257985" />
-    <state x="435" y="0" width="476" height="723" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586464355998">
+    <state x="435" y="0" width="476" height="723" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588170382220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="435" y="0" width="476" height="723" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586464355998" />
+    <state x="435" y="0" width="476" height="723" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1588170382220" />
     <state x="416" y="121" width="524" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586463292099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -215,6 +229,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="348" y="3" width="674" height="715" key="#storage/0.0.1366.728@0.0.1366.728" timestamp="1587132833559" />
+    <state x="466" y="121" width="424" height="479" key="FileChooserDialogImpl" timestamp="1587996143691">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="121" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587996143691" />
+    <state x="547" y="129" width="262" height="463" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1587994948812">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="547" y="129" width="262" height="463" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.728@0.0.1366.728" timestamp="1587994948812" />
     <state x="440" y="0" width="647" height="728" key="find.popup" timestamp="1586269800793">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
